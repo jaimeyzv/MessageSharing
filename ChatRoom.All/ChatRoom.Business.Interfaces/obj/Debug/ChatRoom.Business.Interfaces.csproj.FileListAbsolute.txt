@@ -1,0 +1,9 @@
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\bin\Debug\ChatRoom.Business.Interfaces.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\bin\Debug\ChatRoom.Business.Interfaces.pdb
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\bin\Debug\ChatRoom.Business.Entities.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\bin\Debug\ChatRoom.Business.Entities.pdb
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\obj\Debug\ChatRoom.Business.Interfaces.csprojAssemblyReference.cache
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\obj\Debug\ChatRoom.Business.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\obj\Debug\ChatRoom.Business.Interfaces.csproj.CopyComplete
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\obj\Debug\ChatRoom.Business.Interfaces.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Interfaces\obj\Debug\ChatRoom.Business.Interfaces.pdb

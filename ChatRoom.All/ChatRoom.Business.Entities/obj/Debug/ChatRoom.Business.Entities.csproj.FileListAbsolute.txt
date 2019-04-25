@@ -1,0 +1,5 @@
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Entities\bin\Debug\ChatRoom.Business.Entities.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Entities\bin\Debug\ChatRoom.Business.Entities.pdb
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Entities\obj\Debug\ChatRoom.Business.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Entities\obj\Debug\ChatRoom.Business.Entities.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Business.Entities\obj\Debug\ChatRoom.Business.Entities.pdb

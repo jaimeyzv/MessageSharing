@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62EB88B1-FBDB-407C-8EA8-73A40876E0F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChatRoom.Business</RootNamespace>
+    <AssemblyName>ChatRoom.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatroomBusiness.cs" />
+    <Compile Include="MessageBusiness.cs" />
+    <Compile Include="ProfileBusiness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserBusiness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatRoom.Business.Entities\ChatRoom.Business.Entities.csproj">
+      <Project>{329BECFF-2CBD-4E3A-AEBC-B194AE16068C}</Project>
+      <Name>ChatRoom.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatRoom.Business.Interfaces\ChatRoom.Business.Interfaces.csproj">
+      <Project>{94DF27DF-D929-4864-8FD8-58144913DBB1}</Project>
+      <Name>ChatRoom.Business.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatRoom.Common\ChatRoom.Common.csproj">
+      <Project>{7347956f-313b-46eb-bb64-e9f3ec9a76f8}</Project>
+      <Name>ChatRoom.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatRoom.DataAccess.Dtos\ChatRoom.DataAccess.Dtos.csproj">
+      <Project>{37fcff6b-17d3-48c3-8d0a-c01fdaa214fb}</Project>
+      <Name>ChatRoom.DataAccess.Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatRoom.DataAccess.Interfaces\ChatRoom.DataAccess.Interfaces.csproj">
+      <Project>{DB25FD43-E597-4841-8FC4-6ADEE0F5247C}</Project>
+      <Name>ChatRoom.DataAccess.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatRoom.Insfrastucture.Interfaces\ChatRoom.Insfrastucture.Interfaces.csproj">
+      <Project>{ae1b3a35-afff-498e-8019-5449f641b6c0}</Project>
+      <Name>ChatRoom.Insfrastucture.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChatRoom.MessageBroker.Interfaces\ChatRoom.MessageBroker.Interfaces.csproj">
+      <Project>{6f794030-a09e-4557-9aab-2d501d8bac4a}</Project>
+      <Name>ChatRoom.MessageBroker.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

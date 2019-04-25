@@ -1,0 +1,9 @@
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\bin\Debug\ChatRoom.Common.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\bin\Debug\ChatRoom.Common.pdb
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\obj\Debug\ChatRoom.Common.csproj.CoreCompileInputs.cache
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\obj\Debug\ChatRoom.Common.csproj.CopyComplete
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\obj\Debug\ChatRoom.Common.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Common\obj\Debug\ChatRoom.Common.pdb

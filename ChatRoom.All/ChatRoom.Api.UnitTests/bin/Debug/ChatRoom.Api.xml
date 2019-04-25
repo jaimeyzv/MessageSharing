@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatRoom.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ChatRoom.Api.Controllers.ChatroomController.GetById(System.Int32)">
+            <summary>
+            Get a particular chatroom filtered by id
+            </summary>
+            <param name="id">Unique id per chatroom</param>
+            <returns>Returns a single chatroom</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ChatroomController.Create(ChatRoom.Api.Models.ChatroomViewModel)">
+            <summary>
+            Create a chatroom
+            </summary>
+            <param name="model">Chatroom creation object</param>
+            <returns>Returns the created chatroom</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ChatroomController.Put(ChatRoom.Api.Models.ChatroomViewModel,System.Int32)">
+            <summary>
+            Update the entire chatroom filtered by id
+            </summary>
+            <param name="model">Chatroom update object</param>
+            <param name="id">Unique id per user. This will identify which chatroom will be updated</param>
+            <returns>Returns the updated Chatroom</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ChatroomController.Delete(System.Int32)">
+            <summary>
+            Delete a chatroom filtered by id
+            </summary>
+            <param name="id">Unique id per chatroom. This will identify which chatroom will be deleted</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.MessageController.Create(ChatRoom.Api.Models.MessageViewModel)">
+            <summary>
+            Create a message
+            </summary>
+            <param name="model">Message creation object</param>
+            <returns>Returns the created message</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.MessageController.Get(System.Int32)">
+            <summary>
+            Get 50 messages that belong to a particular chatroom
+            </summary>
+            <param name="chatroomId">Unique id that identity a chatroom</param>
+            <returns>Return a list of messages</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.MessageController.GetHistory(System.Int32)">
+            <summary>
+            Get all messages that belong to a particular chatroom
+            </summary>
+            <param name="chatroomId">Unique id that identity a chatroom</param>
+            <returns>Return a list of messages</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ProfileController.GetAll">
+            <summary>
+            Get all profiles
+            </summary>
+            <returns>Returns a list of profiles</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ProfileController.GetByCode(System.String)">
+            <summary>
+            Get a particular profile filtered by code
+            </summary>
+            <param name="code">Unique code per profile</param>
+            <returns>Returns a single profile</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ProfileController.Create(ChatRoom.Api.Models.ProfileViewModel)">
+            <summary>
+            Create a new profile
+            </summary>
+            <param name="model">Profile creation object</param>
+            <returns>Returns the created profile</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ProfileController.Put(ChatRoom.Api.Models.ProfileViewModel,System.String)">
+            <summary>
+            Update the entire profile filtered by code
+            </summary>
+            <param name="model">Profile update object</param>
+            <param name="code">Unique code per profile. This will identify which profile will be updated</param>
+            <returns>Returns the updated profile</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.ProfileController.Delete(System.String)">
+            <summary>
+            Delete a profile filtered by code
+            </summary>
+            <param name="code">Unique code per profile. This will identify which profile will be deleted</param>
+            <returns></returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.UserController.GetAll">
+            <summary>
+            Get all users
+            </summary>
+            <returns>Returns a list of users</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.UserController.GetByNickName(System.String)">
+            <summary>
+            Get a particular user filtered by nickname
+            </summary>
+            <param name="nickName">Unique nickname per user</param>
+            <returns>Returns a single user</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.UserController.Create(ChatRoom.Api.Models.UserViewModel)">
+            <summary>
+            Create a user
+            </summary>
+            <param name="model">User creation object</param>
+            <returns>Returns the created user</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.UserController.Put(ChatRoom.Api.Models.UserViewModel,System.String)">
+            <summary>
+            Update the entire user filtered by nickname
+            </summary>
+            <param name="model">User update object</param>
+            <param name="nickName">Unique nickname per user. This will identify which user will be updated</param>
+            <returns>Returns the updated user</returns>
+        </member>
+        <member name="M:ChatRoom.Api.Controllers.UserController.Delete(System.String)">
+            <summary>
+            Delete a user filtered by nickname
+            </summary>
+            <param name="nickName">Unique nickname per user. This will identify which user will be deleted</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Api.Models\bin\Debug\ChatRoom.Api.Models.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Api.Models\bin\Debug\ChatRoom.Api.Models.pdb
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Api.Models\obj\Debug\ChatRoom.Api.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Api.Models\obj\Debug\ChatRoom.Api.Models.dll
+C:\Users\Jaime Zamora\Dropbox\Jobsity\Challenge\ChatRoom.All\ChatRoom.Api.Models\obj\Debug\ChatRoom.Api.Models.pdb
